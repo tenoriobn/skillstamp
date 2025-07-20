@@ -5,7 +5,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineNuxtConfig({
   devtools: { enabled: false },
-  css: ['@/assets/css/main.css',],
+  css: ['@/assets/css/main.css'],
   vite: {
     resolve: {
       alias: {
